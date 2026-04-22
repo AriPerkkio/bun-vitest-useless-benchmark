@@ -24,6 +24,6 @@ $ time pnpm run bun
 | `bun:test`                       | 1_000      | 144.424s   | Bun `v1.3.12`   |
 | `bun:test` with new `--parallel` | 1_000      | 3.610s     | Bun `v1.3.13`   |
 | `vitest`                         | 1_000      | 3.816s     | Node `v22.22.0` |
-| `bun:test`                       | 10_000     | 17m14.942s | Bun `v1.3.12`   |
+| `bun:test`                       | 10_000     | 1034.492s  | Bun `v1.3.12`   |
 | `bun:test` with new `--parallel` | 10_000     | 32.517s    | Bun `v1.3.13`   |
 | `vitest`                         | 10_000     | 33.423s    | Node `v22.22.0` |
