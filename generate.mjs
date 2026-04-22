@@ -1,6 +1,6 @@
 import { mkdirSync, rmSync, writeFileSync } from "node:fs";
 
-const TEST_FILE_COUNT = 1_000;
+const TEST_FILE_COUNT = 10_000;
 
 const TEMPLATE = `\
 import { sum } from '../src/sum.ts';

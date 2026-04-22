@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "bun": "bun test ./bun",
-    "vitest": "vitest run ./vitest --isolate=false --pool=threads --max-workers=32 --experimental.vite-module-runner=false"
+    "bun": "bun test --parallel=32 ./bun",
+    "vitest": "vitest run ./vitest --reporter minimal --isolate=false --pool=threads --max-workers=32 --experimental.vite-module-runner=false"
   },
   "devDependencies": {
-    "vitest": "^4.1.2"
+    "vitest": "^4.1.4"
   }
 }
