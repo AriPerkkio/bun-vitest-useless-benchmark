@@ -7,7 +7,7 @@ See https://github.com/AriPerkkio/isolated-tests-jest-node-vitest for isolated t
 
 > [!NOTE]
 > After couple of years Bun implemented `--parallel` and became 1.03x-1.06x faster than Vitest.
-> Updated benchmarks to with this new flag.
+> Updated benchmarks to use this new flag.
 
 Run with:
 
